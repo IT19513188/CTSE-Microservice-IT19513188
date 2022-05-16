@@ -9,7 +9,7 @@ spec:
   ports:
   - port: 8080
     protocol: TCP
-    targetPort: 5005
+    targetPort: 8080
   selector:
     app: ctse-it19513188
 status:
