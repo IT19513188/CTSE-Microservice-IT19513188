@@ -20,4 +20,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/CTSE-Assignment3-IT19513188:${{ github.sha }}
+        tags: ${{ secrets.DOCKER_USERNAME }}/ctse-assignment3-it19513188:${{ github.sha }}
