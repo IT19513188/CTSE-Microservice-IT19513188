@@ -7,7 +7,7 @@ metadata:
   name: ctse-it19513188
 spec:
   ports:
-  - port: 5005
+  - port: 8080
     protocol: TCP
     targetPort: 5005
   selector:
