@@ -4,7 +4,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const ConnectDB = require('./database/orderDB');
 
-ConnectDB();
+// ConnectDB();
 
 const app = express();
 app.use(cors());
