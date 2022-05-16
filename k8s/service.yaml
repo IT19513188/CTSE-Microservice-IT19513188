@@ -3,14 +3,14 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: ctse-it19513188
-  name: ctse-it19513188
+    app: ctse-assignment-it19513188
+  name: ctse-assignment-it19513188
 spec:
   ports:
-  - port: 8080
+  - port: 5005
     protocol: TCP
-    targetPort: 8080
+    targetPort: 5005
   selector:
-    app: ctse-it19513188
+    app: ctse-assignment-it19513188
 status:
   loadBalancer: {}

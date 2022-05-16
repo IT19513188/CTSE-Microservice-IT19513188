@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 const order_routes = require('./routes/order_route');
 app.use("/order",order_routes);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5005;
 
 const server = app.listen(PORT , () => {
     console.log(`Server is running on ${PORT}`);
