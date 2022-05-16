@@ -63,7 +63,7 @@ router.get("/viewOne/:orderId", async(req,res) => {
     }
 })
 
-/**Deleteing One Order Detail */
+/**Deleting One Order Detail */
 router.delete("/delete/:orderId", async(req,res) => {
     if (req.params && req.params.orderId) {
         await Order.deleteOne({"orderId":req.params.orderId})
